@@ -24,3 +24,5 @@ Route::controller(\App\Http\Controllers\UserController::class)->group(function()
     Route::post('/login', 'doLogin');
     Route::post('/logout', 'doLogout');
 });
+
+
